@@ -4,7 +4,7 @@ import InputText from "./components/InputText";
 
 function App() {
   return (
-    <div style={{backgroundColor: "#ece5dd", height:"100%"}}>
+    <div style={{backgroundColor: "#ece5dd", minHeight: "100vh", padding: "20px"}}>
         <ChatContainer/>
     </div>
   );
